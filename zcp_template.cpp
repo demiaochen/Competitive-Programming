@@ -14,15 +14,15 @@
 
 #ifdef DEBUG
     #define D(x...) printf(x)
-#else  
+#else
     #define D(x...)
 #endif
 
 // #define int int64_t
 using namespace std;
 
-using ll = long long;        //typedef long long    ll;  
-using ld = long double;      //typedef long double  ld;  
+using ll = long long;        //typedef long long    ll;
+using ld = long double;      //typedef long double  ld;
 using ull = unsigned long long;
 typedef pair<ll, ll> pii;
 #define vt vector
@@ -34,12 +34,12 @@ typedef pair<ll, ll> pii;
 #define REPP(i, n) for (int i = 0; i < n; ++i)      // repeat n times, arg0 as index
 #define FO(m, n) for (int i = m; i <= n; ++i)       // from m to n, ++i
 #define FOV(m, n) for (int i = m; i >= n; --i)      // from m to n, --i
-#define FOR(i, a, b) for (int i = a; i <= b; ++i)   
+#define FOR(i, a, b) for (int i = a; i <= b; ++i)
 #define FORV(i, a, b) for (int i = a; i >= b; --i)
 
 #define INF 0x3f3f3f3f  // 1e9
 #define INFF 0x3f3f3f3f3f3f3f3f  // 1e18
-#define fastIO() ios_base::sync_with_stdio(false); cin.tie(nullptr); 
+#define fastIO() ios_base::sync_with_stdio(false); cin.tie(nullptr);
 #define cout(a) std::cout << a << "\n";
 #define coutt(a) std::cout << a << " ";
 
@@ -51,4 +51,4 @@ const int mod = 1e9 + 7;
 signed main() {
     fastIO();
 
-}       
+}
